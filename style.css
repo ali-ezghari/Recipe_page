@@ -1,0 +1,124 @@
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #dbb98d;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  background-color: white;
+  width: 30%;
+  margin: 10% auto;
+  padding: 25px;
+  border-radius: 15px;
+}
+hr {
+  margin: 25px 0;
+  border: 0.5px solid #dddcdc;
+}
+/* first section img + title */
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 300;
+}
+.container li {
+  padding: 11px 0px 0px 15px;
+}
+.container li::marker {
+  color: rgb(109 47 47);
+  font-weight: bold;
+}
+.container .in-title {
+  color: rgb(132 63 63);
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.container ul,
+.container ol {
+  margin-top: 0;
+  padding-left: 20px;
+}
+.container img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.container h1 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.container .title p {
+  font-style: italic;
+}
+.container span {
+  color: rgb(0 0 0 / 75%);
+  font-weight: 600;
+}
+
+/* Second Section preparation */
+.container .prep {
+  padding: 15px 23px;
+  border-radius: 10px;
+  background-color: hsl(330, 100%, 98%);
+}
+
+.container .prep h4 {
+  color: rgb(143 50 101);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.container .prep li {
+  padding: 11px 0px 0px 15px;
+}
+
+/* Third Section Ingredients */
+
+.container .ingr li {
+  padding: 11px 0px 0px 15px;
+}
+
+/*Last Section Nutritions*/
+
+.container .nutr table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.container .nutr table td {
+  padding: 10px 30px;
+  text-align: left;
+  border-bottom: 1.5px solid #dddcdc;
+}
+.container .nutr table td:nth-child(2) {
+  color: rgb(132 63 63);
+}
+
+/* Mobile Screens */
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+}
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 50%;
+  }
+}
+/* Medium Screens */
+
+@media (min-width: 992px) and (max-width: 1299px) {
+  .container {
+    width: 60%;
+  }
+}
