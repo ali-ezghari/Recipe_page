@@ -88,6 +88,7 @@ h2 {
 
 .container .nutr table {
   width: 100%;
+  margin-bottom: 20px;
   border-collapse: collapse;
 }
 .container .nutr table td {
